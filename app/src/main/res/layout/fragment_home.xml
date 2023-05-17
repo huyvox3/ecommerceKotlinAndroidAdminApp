@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.homeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/addCategoryBtn"
+        android:layout_width="312dp"
+        android:layout_height="46dp"
+        android:text="Add Categories"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <Button
+        android:id="@+id/addProductsBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Add products"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/addCategoryBtn"
+        app:layout_constraintStart_toStartOf="@+id/addCategoryBtn"
+        app:layout_constraintTop_toBottomOf="@+id/addCategoryBtn" />
+
+    <Button
+        android:id="@+id/addSliderBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Add Slider"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/addProductsBtn"
+        app:layout_constraintStart_toStartOf="@+id/addProductsBtn"
+        app:layout_constraintTop_toBottomOf="@+id/addProductsBtn" />
+
+    <Button
+        android:id="@+id/allOrderBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="All Order Details"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/addSliderBtn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/addSliderBtn"
+        app:layout_constraintTop_toBottomOf="@+id/addSliderBtn" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
